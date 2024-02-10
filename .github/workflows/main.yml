@@ -25,7 +25,7 @@ jobs:
           images: pichkul/testjodejsapp
       
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@cc10f30e03703f8ecca34568a9c31d2a5e37e7e3
         with:
           context: .
           push: true
