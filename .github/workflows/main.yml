@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: pichkul/pj-nodeapp
+          images: pichkul/pj-nodeapp-ts
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
